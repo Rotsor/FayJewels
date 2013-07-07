@@ -1,0 +1,7 @@
+fay -O --no-ghc Bejewelled.hs
+out=bejewelled
+mkdir $out
+cp Bejewelled.hs $out/
+cp Bejewelled.js $out/
+cp bejewelled.html $out/
+cp codeworld.js $out/
